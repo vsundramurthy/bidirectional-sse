@@ -7,7 +7,7 @@ var async = require('async')
 
 module.exports = function(app, models) {
 
-  app.get('/sse/:sid', function(req, res) {
+  app.get('/', function(req, res) {
     res.render('index.dust', {dbg: app.dbg});
   });
 

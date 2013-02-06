@@ -1,6 +1,6 @@
 var config = module.exports = {};
 
-config.server = { port: '3000'};
+config.server = { port: '2020'};
 
 config.db = { host: 'localhost', name: 'spof' };
 
