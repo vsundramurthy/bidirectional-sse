@@ -1,0 +1,32 @@
+{
+  "author": "Venkatesan Sundramurthy <vsundramurthy@ebay.com>",
+  "name": "ICRS",
+  "description": "SPOF Agent",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "gitolite@crpgit.corp.ebay.com:WTF"
+  },
+  "dependencies": {
+      "express": "3.0.0",
+      "mongodb": "1.1.4",
+      "mongoose": "3.0.x",
+      "nodeunit": "0.7.4",
+      "async": "0.1.22",
+      "winston": "0.6.2",
+      "dustjs-linkedin": "1.1.1",
+      "node-minify": "0.4.2",
+      "consolidate": "0.4.0",
+      "node-schedule" : "0.1.5",
+      "spofcheck" : "0.1.3",
+      "nodemailer" : "0.3.37",
+      "cron" : "1.0.1",
+      "mongodb" : "0.9.9-8",
+      "xml2js": "0.2.2"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}

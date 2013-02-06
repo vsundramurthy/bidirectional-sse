@@ -1,0 +1,14 @@
+{>"./views/header.dust"/}
+    <div class="content-container container home-content">
+        <div class="home-content">
+            <textarea rows="14" cols="150" id="ta1"></textarea>
+            <textarea rows="14" cols="150"  id="ta2"></textarea>
+            <textarea rows="14" cols="150"  id="ta3"></textarea>
+            <textarea rows="14" cols="150"  id="ta4"></textarea>
+            <br />
+            <button id="test_it">Send test GET req</button>
+            <button id="clear_it">Clear all msg</button>
+        </div>
+    </div>
+    
+{>"./views/footer.dust"/}

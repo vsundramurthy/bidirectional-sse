@@ -1,0 +1,215 @@
+/* Body and structure
+-------------------------------------------------- */
+.fl { float: left; }
+.fr { float: left; }
+.clr { clear: both; }
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  position: relative;
+  padding-top: 40px;
+  font-size: 12px;
+}
+
+/* Code in headings */
+h3 code {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* Tweak navbar brand link to be super sleek
+-------------------------------------------------- */
+
+body > .navbar {
+  font-size: 13px;
+}
+
+/* Change the docs' brand */
+body > .navbar .brand {
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 20px;
+  float: right;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+  -webkit-transition: all .2s linear;
+     -moz-transition: all .2s linear;
+          transition: all .2s linear;
+}
+body > .navbar .brand:hover {
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
+}
+
+/* Sign in page styles
+-------------------------------------------------- */
+
+.form-signin {
+  max-width: 330px;
+  padding: 19px 29px 29px;
+  margin: 40px auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+.domain {
+  font-weight: bold;
+  margin-top: 6px;
+  padding-left: 5px;
+}
+.signin-error {
+  font-weight: bold;
+  margin-top: 6px;
+  color:red;
+}
+
+/* Container
+--------------------------------------------------*/
+.content-container {
+  min-height:370px;
+  margin-top:20px;
+}
+
+.home-content {
+  font-size: 14px;
+  line-height: 1.70;
+  text-align: justify;
+  padding: 0px 50px;
+}
+
+/* Grid
+--------------------------------------------------*/
+.spof-container {
+ margin-top:20px;
+}
+
+.grid-container {
+  margin-top:20px;
+}
+
+.btn-group {
+  margin-top:-5px;
+}
+
+.loading {
+  margin: 0 0 2px 0;
+}
+
+/* Create SPOF
+--------------------------------------------------*/
+
+.form-create-spof {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 20px 20px 20px;
+    max-width: 600px;
+    padding: 10px 29px 29px;
+    line-height:40px;
+    height: auto;
+}
+.form-create-spof .inputs {
+ margin-top:20px;
+}
+
+.form-create-spof div {
+ clear: both;
+}
+
+.form-create-spof input, .form-create-spof textarea {
+  float:right;
+  width: 450px;
+}
+
+.form-create-spof textarea {
+  height: 100px;
+}
+
+.spof-create-button {
+  float:right;
+}
+
+/* Update SPOF
+--------------------------------------------------*/
+
+.spof-update-button {
+  float: right;
+  margin-top: 10px;
+}
+
+/* Schedular
+--------------------------------------------------*/
+
+.hour-select, .minute-select {
+  font-size:11px;
+  height:24px;
+  width:55px;
+  font-weight:bold;
+}
+
+.scheduler-content {
+  margin-left: 64px;
+}
+
+.scheduler-content .btn-group, .scheduler-content .hour-select {
+  margin-left: 25px;
+}
+
+.scheduler-content .am-pm {
+  margin-left: 15px;
+}
+
+.scheduler-content .minute-select {
+  margin-left: 15px;
+}
+
+.hour-select, .minute-select {
+ margin-top: 6px;
+}
+
+/* Footer
+-------------------------------------------------- */
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 40px;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+}
+.footer p {
+  margin-bottom: 0;
+  color: #777;
+}
+.footer-links {
+  margin: 10px 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}

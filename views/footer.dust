@@ -1,0 +1,16 @@
+        {#dbg}
+          <script src="/assets/js/jquery/jquery-1.8-min.js"></script>
+          <script src="/assets/js/jquery/jquery-ui-1.9.0.js"></script>
+          <script src="/assets/js/underscore/underscore-min.js"></script>
+          <script src="/assets/js/bootstrap/bootstrap-dropdown.js"></script>
+          <script src="/assets/js/bootstrap/bootstrap-button.js"></script>
+          <script src="/assets/js/bootstrap/bootstrap-collapse.js"></script>
+          <script src="/assets/js/bootstrap/bootstrap-tooltip.js"></script>
+          <script src="/assets/js/bootstrap/bootstrap-popover.js"></script>
+          <script src="/assets/js/google-code-prettify/prettify.js"></script>
+          <script src="/assets/js/application.js"></script>
+        {:else}
+          <script src="/assets/js/one-js.js"></script>
+        {/dbg}
+    </body>
+</html>
